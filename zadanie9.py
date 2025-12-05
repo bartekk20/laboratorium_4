@@ -7,8 +7,8 @@ zakupy = {
 }
 
 print("Lista zakupów: ")
-for artykuly, kwoty in zakupy.items():
-    print(artykuly + " - " + str(kwoty) + " zł")
+for artykul, kwota in zakupy.items():
+    print(artykul + " - " + str(kwota) + " zł")
 
 suma = sum(zakupy.values())
 print("Suma:", str(suma) + "zł")
