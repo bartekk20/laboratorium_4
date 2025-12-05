@@ -1,15 +1,19 @@
 stopnie = (
-"Szeregowy",
-"Kapral",
-"Sierżancie",
-"Porucznik",
-"Kapitan",
-"Major",
-"Pułkownik",
+    "Szeregowy",
+    "Kapral",
+    "Sierżant",
+    "Porucznik",
+    "Kapitan",
+    "Major",
+    "Pułkownik",
 )
 
-lista_stopnie = list(stopnie)
-# for i in lista_stopnie:
-ilość_stopnii = len(lista_stopnie)
-print("Liczba stopni:", ilość_stopnii )
+ilość_stopnii = len(stopnie)
 
+Major_index = stopnie.index("Major")
+
+Pułkownik_występowanie = "Pułkownik" in stopnie
+
+print("Liczba stopni:", ilość_stopnii)
+print("Indeks stopnia Major:", Major_index)
+print("Czy 'Pułkownik' znajduje się w krotce?:", Pułkownik_występowanie)
